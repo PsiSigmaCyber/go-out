@@ -1,0 +1,66 @@
+package main
+
+import "fmt"
+
+func main() {
+	//var MySlice []string
+
+	/*MySlice = append(MySlice, "auth-server")
+	MySlice = append(MySlice, "Database-server")
+	MySlice = append(MySlice, "Cache-server")
+	MySlice = append(MySlice, "Load-server")*/
+
+	/*MySlice := []string{
+		"Auth-Server",
+		"Database-Server",
+		"Cache-Server",
+	}*/
+
+	/*MySlice[0] = "auth-server"
+	MySlice[1] = "Database-Server"
+	MySlice[2] = "cache-server"
+	MySlice[3] = "Load-balancer"*/
+
+	/*Servers := []string{
+		"Auth",
+		"Databse",
+		"Cache",
+	}
+
+	fmt.Println("Servers", len(Servers), cap(Servers), Servers)*/
+	var servers []string
+
+	// We print the Length and Capacity of the empty slice
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+	// Add ONE server
+	servers = append(servers, "Auth")
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+	// Add a SECOND server
+	servers = append(servers, "Database")
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+	// Add a THIRD server
+	servers = append(servers, "Cache")
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+	servers = append(servers, "Load")
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+	servers = append(servers, "Max")
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+	servers = append(servers, "ch")
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+	servers = append(servers, "csha")
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+	servers = append(servers, "jha")
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+	servers = append(servers, "anga")
+	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
+
+}
