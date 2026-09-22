@@ -8,13 +8,13 @@ func main() {
 	/*MySlice = append(MySlice, "auth-server")
 	MySlice = append(MySlice, "Database-server")
 	MySlice = append(MySlice, "Cache-server")
-	MySlice = append(MySlice, "Load-server")*/
+	MySlice = append(MySlice, "Load-server")*/ //line by line mutation
 
 	/*MySlice := []string{
 		"Auth-Server",
 		"Database-Server",
 		"Cache-Server",
-	}*/
+	}*/ //compsoite literal/upfront initiation
 
 	/*MySlice[0] = "auth-server"
 	MySlice[1] = "Database-Server"
@@ -27,7 +27,7 @@ func main() {
 		"Cache",
 	}
 
-	fmt.Println("Servers", len(Servers), cap(Servers), Servers)*/
+	fmt.Println("Servers", len(Servers), cap(Servers), Servers) */ //composite literal feels just like array
 	var servers []string
 
 	// We print the Length and Capacity of the empty slice
@@ -63,4 +63,4 @@ func main() {
 	servers = append(servers, "anga")
 	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
 
-}
+} //doubling stratagy
