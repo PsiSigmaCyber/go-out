@@ -20,3 +20,36 @@ func main() {
 	}
 
 }
+
+/*package main
+
+import "fmt"
+
+// ---------------------------------------------------------
+// WORKER 1: THE STANDARD FUNCTION (Stands outside main)
+// It takes NO inputs: ()
+// It returns TWO outputs: (string, string)
+// ---------------------------------------------------------
+func CheckSystem() (string, string) {
+
+	// FILL THIS IN:
+	// Type the word 'return' followed by "Online" and "US-East" separated by a comma
+	return "Online", "US-East"
+
+}
+
+// ---------------------------------------------------------
+// WORKER 2: THE MAIN ENGINE
+// ---------------------------------------------------------
+func main() {
+
+	// FILL THIS IN:
+	// Create two variables (status, region) and assign them the execution of CheckSystem()
+	// It should look like: variable1, variable2 := FunctionName()
+	status, region := CheckSystem()
+
+	// PROVE IT WORKED (I wrote this for you)
+	fmt.Println("System Status:", status)
+	fmt.Println("System Region:", region)
+}
+*/

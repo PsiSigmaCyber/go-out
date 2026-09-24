@@ -34,3 +34,21 @@ func main() {
 	file.Close()
 
 }
+package main
+
+// import (
+// 	"bufio"
+// 	"fmt"
+// 	"os"
+// )
+
+// func main() {
+// 	reader := bufio.NewReader(os.Stdin)
+
+// 	fmt.Print("Enter a sentence: ")
+
+// 	input, _ := reader.ReadString('\n')
+
+// 	fmt.Printf("You typed: %s", input)
+
+// }

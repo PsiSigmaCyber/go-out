@@ -64,3 +64,15 @@ func main() {
 	fmt.Printf("Length: %d | Capacity: %d | Data: %v\n", len(servers), cap(servers), servers)
 
 } //doubling stratagy
+
+/*package main
+
+import "fmt"
+
+func main() {
+	//create a standard for lopp
+	for i := 0; i < 3; i++ {
+		fmt.Println("Spin attempt: ", i)
+	}
+}
+*/
