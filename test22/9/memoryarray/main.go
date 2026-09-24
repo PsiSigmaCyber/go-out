@@ -63,3 +63,20 @@ func main() {
 	}*/ //if conditional..
 
 } //Since there are 4 slices, the final capacity will be 4, and the length will also be 4
+
+/*package main
+
+import "fmt"
+
+//no need for struct again..
+func main() {
+	//data type declaration
+	var Age int
+	//print question
+	fmt.Printf("Enter your Age: ")
+	//input the data from terminal
+	fmt.Scan(&Age)
+	//print it
+	fmt.Printf("You are %d years old", Age)
+}
+*/
