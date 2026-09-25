@@ -76,3 +76,30 @@ func main() {
 	}
 }
 */
+/*package main
+
+import "fmt"
+
+func main() {
+	//statusCode := 500
+
+	// FILL THIS IN:
+	// Write a switch statement that evaluates 'statusCode'
+	switch statusCode := 7800; statusCode {
+	// case 200: Print "Connection Successful"
+	case 200:
+		fmt.Println("Connection Successful")
+	// case 404: Print "Not Found"
+	case 404:
+		fmt.Println("Not Found")
+	// case 500: Print "Server Error"
+	case 500:
+		fmt.Println("Server Error")
+	// default: Print "Unknown Code"
+	default:
+		fmt.Println("Unknown Code")
+
+	}
+
+}
+*/

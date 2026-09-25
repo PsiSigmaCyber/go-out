@@ -34,7 +34,8 @@ func main() {
 	file.Close()
 
 }
-package main
+
+//package main
 
 // import (
 // 	"bufio"
