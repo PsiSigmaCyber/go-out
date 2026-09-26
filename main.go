@@ -21,38 +21,44 @@ You need an isPalindrome function that takes a string and returns a boolean.
 
 How you build the machine inside isPalindrome is entirely up to you. You have to figure out how to compare the front of the word to the back of the word, and how to stop when you know the answer.
 */
+//===============================================IGNORE THE COMMENTS HERE!!!!!!!!!!!!!!!!!!!!===================================================================
 package main
 
 import "fmt"
 
-func isPalindrome() {
-	// take the stored string
-	var word string                //decalre a string variable
-	fmt.Println("Enter the word:") //ask for the string
-
-	fmt.Scan("Your word", &word) //store the string
+func isPalindrome(char string) bool { //declared char is a string and that this function returns a bollean answer
 	//letter checking
-	left := 0
-	right := len(word) - 1
-	for left > right {
-		switch left == right; word {
-		case true:
-			print(&word, "is palindrome")
-		case false:
-			print(&word, "isn't palindrome")
+	left := 0              //charter in the left is 0
+	right := len(char) - 1 //characters in the right is -1
+	for left < right {     //when value of left is greater than right (makes no sense to me.. we are checking for equality..)
+		if char[left] != char[right] { // are you starting that one is greater and other is less
+			return false //and then we are saying they if that is true
+			//left++ //then make them equal?
+			//right--
+			//case false: // if theyre not equal then it isn't palindrome?
+			//fmt.Println(char, "isn't a plaindrome")
 
 		}
+		left++
+		right--
 
+	}
+	return true //the bollean answer it has to return on the basis of running the for loop
+}
+
+func main() {
+	var word string                //decalre a string variable
+	fmt.Println("Enter the word:") //ask for the string
+	// pulling char out of isPlaindrome to here
+
+	fmt.Scan(&word) //store the string
+	if isPalindrome(word) == true {
+		fmt.Println(word, "is a palindrome")
+	} else {
+		fmt.Println(word, "isn't a palindrome")
 	}
 }
 
-// }
-// func main(){
-// 	var word string //decalre a string variable
-// 	fmt.Println("Enter the word:") //ask for the string
-
-// 	fmt.Scan("Your word", &word)//store the string
-// }
 //===========================================================================================================================================
 // package main
 
