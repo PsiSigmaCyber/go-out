@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "full_name": "Sarah Connor",
+    "clearance_level": "Admin"
+  },
+  {
+    "id": 2,
+    "full_name": "John Connor",
+    "clearance_level": ""
+  },
+
+  {
+    "id": 3,
+    "full_name": "Matagudu",
+    "clearance": ""
+  }
+]
